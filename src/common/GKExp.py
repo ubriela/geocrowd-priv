@@ -90,7 +90,7 @@ class GKExp(object):
                 query_str = str(self.query_list[i][0][1]) + "\t" + str(self.query_list[i][0][1]) + "\t" + str(self.query_list[i][1][0]) + "\t" + str(self.query_list[i][1][1])
 		err_str = str(Res[i]) + "\t" + str(self.trueRes[i]) + "\t" + str(relErr[i]) + "\t" +  str(absErr[i])
 		log_str = log_str + query_str + err_str
-            log(method , log_str_rel)
+            log(method , log_str)
         
 	absErr = np.sort(absErr)
         relErr = np.sort(relErr)
