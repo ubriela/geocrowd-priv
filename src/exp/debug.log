@@ -1,0 +1,17 @@
+INFO:root:Thu, 22 May 2014 10:59:12  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 03 
