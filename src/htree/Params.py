@@ -25,7 +25,7 @@ class Params(object):
     PercentSplit = 0.4	# budget allocated for split
     splitFrac = 0.4 # splitting budget percentage for first level
     minPartSizeHTree = 2**5 # maximum number of data points in a leaf node
-    maxRelativeError = .95 # maximum error allowed in median selection
+    maxRelativeError = .95 # maximum error allowed in median selection (only used in HT_standard_adaptive)
     dynamicGranularity = True     # automatically compute granularity for htree
     c_htree = 3
     useLeafOnlyHTree = True

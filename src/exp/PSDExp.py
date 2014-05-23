@@ -431,44 +431,43 @@ def createGnuData():
             
             
 if __name__ == '__main__':
-#    sys.path.append('Spatial_DP_v1')
-#    sys.path.append('geocrowd')
     
     logging.basicConfig(level=logging.DEBUG, filename='debug.log')
     logging.info(time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime()) + "  START") 
     
     data = data_readin()
     
+    # varying query size
     for q_shape in shape_list:
-	all_queries = query_gen(q_shape,Params.x_min,Params.y_min,Params.x_max,Params.y_max)
+	all_queries = query_gen(q_shape,Params.x_min,Params.y_min,Params.x_max,Params.y_max)    # same set of queries for all methods
         
         test_htrees(data, q_shape, all_queries)
         test_grids(data, q_shape, all_queries)
-        test_kdTrees(data, q_shape, all_queries)  
+        test_kdTrees(data, q_shape, all_queries)
         test_quadtreeOpt(data, q_shape, all_queries)
         
     
-    filenames = ["HT_standard", "Grid_uniform", "Grid_adaptive", "Kd_hybrid", "Quad_geo"]
-    file_rel = open("../log/dump_rel.log", "a")
-    file_abs = open("../log/dump_abs.log", "a")
-    files_contents_rel = []
-    files_contents_abs = []
-    for filename in filenames:
-        content_rel = open("../log/" + filename + "_rel.log", "r").readlines()
-        files_contents_rel.append(content_rel)
-        content_abs = open("../log/" + filename + "_abs.log", "r").readlines()
-        files_contents_abs.append(content_abs)
-    
-    for i in range(len(files_contents_rel[0])):
-        line_rel = ""
-        line_abs = ""
-        for j in range(len(files_contents_rel)):
-            line_rel = line_rel + str(float("%.3f" % float(files_contents_rel[j][i].strip()))) + "\t"
-            line_abs = line_abs + str(float("%.3f" % float(files_contents_abs[j][i].strip()))) + "\t"
-        file_rel.write(line_rel + "\n")
-        file_abs.write(line_abs + "\n")
-    file_rel.close()
-    file_abs.close()
+#    filenames = ["HT_standard", "Grid_uniform", "Grid_adaptive", "Kd_hybrid", "Quad_geo"]
+#    file_rel = open("../log/dump_rel.log", "a")
+#    file_abs = open("../log/dump_abs.log", "a")
+#    files_contents_rel = []
+#    files_contents_abs = []
+#    for filename in filenames:
+#        content_rel = open("../log/" + filename + "_rel.log", "r").readlines()
+#        files_contents_rel.append(content_rel)
+#        content_abs = open("../log/" + filename + "_abs.log", "r").readlines()
+#        files_contents_abs.append(content_abs)
+#    
+#    for i in range(len(files_contents_rel[0])):
+#        line_rel = ""
+#        line_abs = ""
+#        for j in range(len(files_contents_rel)):
+#            line_rel = line_rel + str(float("%.3f" % float(files_contents_rel[j][i].strip()))) + "\t"
+#            line_abs = line_abs + str(float("%.3f" % float(files_contents_abs[j][i].strip()))) + "\t"
+#        file_rel.write(line_rel + "\n")
+#        file_abs.write(line_abs + "\n")
+#    file_rel.close()
+#    file_abs.close()
     
     # Experiment 5: test the impact of max tree height ###
 #    for q_shape in shape_list:

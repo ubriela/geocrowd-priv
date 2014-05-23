@@ -30,3 +30,560 @@ DEBUG:root:selectivity avg 0.00
 DEBUG:root:selectivity median 0.00
 DEBUG:root:selectivity first quartile 0.00
 DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 04 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 2.67
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 11:25:20  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 03 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 2.35
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 11:30:21  END
+INFO:root:Thu, 22 May 2014 11:37:17  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 03 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 2.61
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 11:41:56  END
+INFO:root:Thu, 22 May 2014 13:15:46  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 03 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 2.27
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 13:20:28  END
+INFO:root:Thu, 22 May 2014 13:57:38  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 06 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 2.47
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 14:02:48  END
+INFO:root:Thu, 22 May 2014 20:30:45  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 1.44
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 20:34:14  END
+INFO:root:Thu, 22 May 2014 21:03:59  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 1.43
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 21:07:27  END
+INFO:root:Thu, 22 May 2014 22:09:01  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+INFO:root:Thu, 22 May 2014 22:09:16  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 1.48
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 22:12:46  END
+INFO:root:Thu, 22 May 2014 22:14:57  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+INFO:root:Thu, 22 May 2014 22:17:41  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 1.46
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 22:21:12  END
+INFO:root:Thu, 22 May 2014 22:22:08  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+INFO:root:Thu, 22 May 2014 22:30:17  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Generating queries...
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building HT_standard...
+DEBUG:root:Generic: number of leaves: 1928
+INFO:root:[T] HT_standard building time: 02 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Grid_uniform...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Generic: number of leaves: 2916
+INFO:root:[T] Grid_uniform building time: 00 
+DEBUG:root:building Grid_adaptive...
+DEBUG:root:Grid_pure: size: 76
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 2961
+INFO:root:[T] Grid_adaptive building time: 00 
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Kd_hybrid...
+DEBUG:root:number of leaves: 7231
+DEBUG:root:max depth: 8
+DEBUG:root:adjusting consistency...
+INFO:root:[T] Kd-hybrid building time: 1.53
+DEBUG:root:Getting true query answers...
+DEBUG:root:selectivity min 0.00
+DEBUG:root:selectivity max 0.03
+DEBUG:root:selectivity avg 0.00
+DEBUG:root:selectivity median 0.00
+DEBUG:root:selectivity first quartile 0.00
+DEBUG:root:building Quad_geo...
+DEBUG:root:number of leaves: 4081
+DEBUG:root:max depth: 8
+INFO:root:Thu, 22 May 2014 22:33:52  END
