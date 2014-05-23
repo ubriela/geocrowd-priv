@@ -10,7 +10,7 @@ numpy
 
 ----------- PACKAGES --------------------------------
 
-    **exp
+    exp
         : experimentation
     common
         common classes
@@ -38,17 +38,17 @@ A) PSD Experiments
 Parameters in htree/Params.py
     
     DATASET: name of the dataset, e.g., "yelp"
-    PercentSplit: budget allocated for split
-    splitFrac: splitting budget percentage for 1st level, (1-splitFrac) for 2nd level
-    minPartSizeHTree: maximum number of data points in a leaf node
-    dynamicGranularity: compute granularity of the htree automatically
-    c_htree: a constant for computing granularity automatically
-    CONSTRAINT_INFERENCE: applying constraint inference (for both htrees and grids)
-    partitionsHTree: maximum size of the htree
-    switchPartitionsHTree: determine the size of first level tree (used for both h-trees and grids)
-    nQuery: the number of queries
-    queryUnit: the maximum query size
-    IS_LOGGING: enable logging individual query result
+    + PercentSplit: budget allocated for split
+    + splitFrac: splitting budget percentage for 1st level, (1-splitFrac) for 2nd level
+    + minPartSizeHTree: maximum number of data points in a leaf node
+    + dynamicGranularity: compute granularity of the htree automatically
+    + c_htree: a constant for computing granularity automatically
+    + CONSTRAINT_INFERENCE: applying constraint inference (for both htrees and grids)
+    + partitionsHTree: maximum size of the htree
+    + switchPartitionsHTree: determine the size of first level tree (used for both h-trees and grids)
+    + nQuery: the number of queries
+    + queryUnit: the maximum query size
+    + IS_LOGGING: enable logging individual query result
 
 Parameters in PSDExp.py (starting point is at the end)
     seed_list: an array of seeds
