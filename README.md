@@ -36,6 +36,7 @@ numpy
 A) PSD Experiments
 
 Parameters in htree/Params.py
+    
     DATASET: name of the dataset, e.g., "yelp"
     PercentSplit: budget allocated for split
     splitFrac: splitting budget percentage for 1st level, (1-splitFrac) for 2nd level
@@ -57,9 +58,11 @@ Parameters in PSDExp.py (starting point is at the end)
 Run experiments with the following command
 >> python PSDExp.py
 
-    The aggregated estimation error is in the corresponding folder in ../output/ (see the PSD RESULT)
-    The core dump estimation error is in folder ../log/. Each file is associated with a method. (see the CORE DUMP)
-    The debug file is in exp/debug.log
+The aggregated estimation error is in the corresponding folder in ../output/ (see the PSD RESULT)
+
+The core dump estimation error is in folder ../log/. Each file is associated with a method. (see the CORE DUMP)
+
+The debug file is in exp/debug.log
 
 B) Geocast Experiments
 >> python GeocastExp.py
