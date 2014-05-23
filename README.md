@@ -10,7 +10,7 @@ numpy
 
 ----------- PACKAGES --------------------------------
 
-    exp
+    **exp
         : experimentation
     common
         common classes
