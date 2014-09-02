@@ -4,16 +4,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/htree/HT_standard_adaptive.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/htree/HT_true.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/log/Grid_adaptive.log</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/README.txt</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/htree/HT_hybrid_adaptive.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/htree/Params.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/exp/PSDExp.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/htree/HT_pure.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/htree/HT_standard.py</file>
-            <file>file:/Users/ubriela/DropboxUSC/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/common/GKExp.py</file>
+            <file>file:/B:/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/geocast/Params.py</file>
+            <file>file:/B:/Dropbox/_USC/_Research/_Crowdsourcing/Privacy/PrivateGeoCrowd/src/tornado/server.py</file>
         </group>
     </open-files>
 </project-private>

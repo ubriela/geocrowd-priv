@@ -149,6 +149,10 @@ class Params(object):
         elif Params.DATASET == "brightkite":
             Params.dataset = '../../dataset/brightkite.dat'; Params.resdir = '../../output/brightkite/'
             Params.x_min=-94.5786; Params.y_min=-179.1541; Params.x_max=90; Params.y_max=178 # brightkite
+        else:   # new dataset
+            Params.dataset = '../../dataset/' + Params.DATASET;
+            Params.MTD = 10;
+            #Params.x_min=37.71127146 ; Params.y_min=-122.51350164; Params.x_max=37.83266118; Params.y_max=-122.3627126
 
     # This parameter setting is of the same as ICDE'12
     def __init__(self, seed):
