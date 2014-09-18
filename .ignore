@@ -1,4 +1,4 @@
-bin
-dataset
-upload_data.sh
-upload_source.sh
+/bin
+/dataset
+/upload_data.sh
+/upload_source.sh
