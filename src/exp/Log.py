@@ -2,9 +2,8 @@
 
 """
 
+
 def log(prefix, line):
-    file = open("../log/" + prefix + ".log", "a")
-    file.write(line)
-    file.close()
-    
-    
+    f = open("../log/" + prefix + ".log", "a")
+    f.write(line)
+    f.close()

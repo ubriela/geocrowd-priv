@@ -1,15 +1,14 @@
 import math
 import sys
-import simplejson
-import tornado.web
 import json
-import tornado.ioloop
-import os, uuid
-
+import os
+# noinspection PyDeprecation
 from sets import Set
-from datetime import datetime
 
+import tornado.web
+import tornado.ioloop
 from tornado_cors import CorsMixin
+
 
 sys.path.append('.')
 
@@ -23,8 +22,6 @@ sys.path.append('../geocast')
 sys.path.append('../geocrowd')
 
 import numpy as np
-import time
-import logging
 from Params import Params
 from PSDExp import data_readin
 
@@ -40,7 +37,7 @@ from smallestenclosingcircle import make_circle
 all_data = {}
 tree = []
 datasets = ["yelp", "gowallasf", "gowallala"]
-all_datafiles = {"yelp" : "yelp", "gowallasf" : "gowalla_SF", "gowallala" : "gowalla_LA"}
+all_datafiles = {"yelp": "yelp", "gowallasf": "gowalla_SF", "gowallala": "gowalla_LA"}
 datasets2 = ["Yelp_Phoenix", "Gowalla_SF", "Gowalla_LA"]
 areas = [20342, 179, 2373]
 pearson_skewness = [-0.4, 0.18, 0.07]
@@ -155,10 +152,10 @@ class DatasetHandler(CorsMixin, tornado.web.RequestHandler):
         global datasets, datasets2, boundaries, pearson_skewness, MTDs, areas, worker_counts, spearman_skewness
 
         task = self.get_argument("task", default=None)
-        if (task == None):
+        if task is None:
             return
 
-        if (task == "info"):
+        if task == "info":
             self.write(
                 json.dumps({"names": datasets,
                             "names2": datasets2,
@@ -169,12 +166,13 @@ class DatasetHandler(CorsMixin, tornado.web.RequestHandler):
                             "pearson_skewness": pearson_skewness,
                             "spearman_skewness": spearman_skewness
                            }, sort_keys=True))
-        elif (task == "data"):
+        elif task == "data":
             dataset = self.get_argument("dataset", default=None)
             if dataset is not None and dataset in datasets:
                 with file("../../dataset/" + all_datafiles[dataset] + ".dat") as f:
                     s = f.read()
                 self.write(s)
+
 
 class GeocastHandler(CorsMixin, tornado.web.RequestHandler):
     # Value for the Access-Control-Allow-Origin header.
@@ -464,18 +462,18 @@ class UpdateHandler(CorsMixin, tornado.web.RequestHandler):
 
         # print simplejson.dumps(workers)
 
-        #np.fromiter(json.loads(workers),dtype)
+        # np.fromiter(json.loads(workers),dtype)
 
         # save data to a file
-        #tmp_workers_file = "../../dataset/tmp_workers_file.dat"
+        # tmp_workers_file = "../../dataset/tmp_workers_file.dat"
 
-        #data = np.genfromtxt("../../dataset/yelp.dat",unpack = True)
+        # data = np.genfromtxt("../../dataset/yelp.dat",unpack = True)
 
         print "Start updating worker locations"
         i = 0
         all_workers = []
         for worker in workers:
-            i = i + 1
+            i += 1
             if i % 1000 == 0:
                 print "Updated ", i, " workers"
             pair = [worker['k'], worker['B']]
@@ -490,7 +488,7 @@ class UpdateHandler(CorsMixin, tornado.web.RequestHandler):
         print Params.LOW, Params.HIGH
 
         p = Params(1000)
-        print "Creating WorkerPSD...";
+        print "Creating WorkerPSD..."
         dataset = self.get_argument("dataset", default=Params.DATASET)
         Params.DATASET = dataset
         p.select_dataset()
@@ -558,15 +556,15 @@ class Upload(CorsMixin, tornado.web.RequestHandler):
         print "fileinfo is", fileinfo
         fname = fileinfo['filename']
         fname = os.path.splitext(fname)[0]
-        #cname = str(uuid.uuid4()) + extn
+        # cname = str(uuid.uuid4()) + extn
         cname = fname
         fh = open(__UPLOADS__ + cname, 'w')
         fh.write(fileinfo['body'])
 
         # update variables
-        datasets.append(fname);
-        datasets2.append(fname);
-        all_datafiles[fname] = fname;
+        datasets.append(fname)
+        datasets2.append(fname)
+        all_datafiles[fname] = fname
 
         Params.DATASET = fname + '.dat'
         data = data_readin()
@@ -579,9 +577,10 @@ class Upload(CorsMixin, tornado.web.RequestHandler):
         MTDs.append(Params.MTD)
         worker_counts.append(p.NDATA)
         pearson_skewness.append(0)
-        areas.append(0);
+        areas.append(0)
         spearman_skewness.append(0)
-        boundaries.append(str(Params.LOW[0]) + "," + str(Params.LOW[1]) + "," + str(Params.HIGH[0]) + "," + str(Params.HIGH[1]))
+        boundaries.append(
+            str(Params.LOW[0]) + "," + str(Params.LOW[1]) + "," + str(Params.HIGH[0]) + "," + str(Params.HIGH[1]))
 
         all_data[fname] = (tree, bounds, data)
 

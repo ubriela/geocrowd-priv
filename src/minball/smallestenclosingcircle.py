@@ -6,7 +6,8 @@
 # http://nayuki.eigenstate.org/page/smallest-enclosing-circle
 # 
 
-import math, random
+import math
+import random
 
 
 # Data conventions: A point is a pair of floats (x, y). A circle is a triple of floats (center x, center y, radius).
@@ -19,17 +20,15 @@ import math, random
 # 
 
 def make_circle(points):
-    
-    
     # Convert to float and shuffle
     shuffled = [(float(p[0]), float(p[1])) for p in points]
     random.shuffle(shuffled)
-    
+
     # Incrementally add points to circle
     c = None
     for (i, p) in enumerate(shuffled):
         if c is None or not _is_in_circle(c, p):
-            c = make_circle_one_point(shuffled[0 : i + 1], p)
+            c = make_circle_one_point(shuffled[0: i + 1], p)
     return c
 
 
@@ -37,13 +36,13 @@ def make_circle_one_point(points, p):
     c = (p[0], p[1], 0.0)
     for (i, q) in enumerate(points):
         if not _is_in_circle(c, q):
-            if c == None:
+            if c is None:
                 c = (p[0], p[1], 0.0)
                 print c
             if c[2] == 0.0:
                 c = _make_diameter(p, q)
             else:
-                c = _make_circle_two_points(points[0 : i + 1], p, q)
+                c = _make_circle_two_points(points[0: i + 1], p, q)
     return c
 
 
@@ -51,38 +50,57 @@ def _make_circle_two_points(points, p, q):
     diameter = _make_diameter(p, q)
     if all((_is_in_circle(diameter, r) for r in points)):
         return diameter
-    
+
     left = None
     right = None
     for r in points:
         cross = _cross_product(p[0], p[1], q[0], q[1], r[0], r[1])
         c = _make_circumcircle(p, q, r)
         if c is not None:
-            if cross > 0 and (left is None or _cross_product(p[0], p[1], q[0], q[1], c[0], c[1]) > _cross_product(p[0], p[1], q[0], q[1], left[0], left[1])):
+            if cross > 0 and (
+                            left is None or _cross_product(p[0], p[1], q[0], q[1], c[0], c[1]) > _cross_product(p[0],
+                                                                                                                p[1],
+                                                                                                                q[0],
+                                                                                                                q[1],
+                                                                                                                left[0],
+                                                                                                                left[
+                                                                                                                    1])):
                 left = c
-            elif cross < 0 and (right is None or _cross_product(p[0], p[1], q[0], q[1], c[0], c[1]) < _cross_product(p[0], p[1], q[0], q[1], right[0], right[1])):
+            elif cross < 0 and (
+                            right is None or _cross_product(p[0], p[1], q[0], q[1], c[0], c[1]) < _cross_product(p[0],
+                                                                                                                 p[1],
+                                                                                                                 q[0],
+                                                                                                                 q[1],
+                                                                                                                 right[
+                                                                                                                     0],
+                                                                                                                 right[
+                                                                                                                     1])):
                 right = c
     return left if (right is None or (left is not None and left[2] <= right[2])) else right
 
 
 def _make_circumcircle(p0, p1, p2):
     # Mathematical algorithm from Wikipedia: Circumscribed circle
-    ax = p0[0]; ay = p0[1]
-    bx = p1[0]; by = p1[1]
-    cx = p2[0]; cy = p2[1]
+    ax = p0[0]
+    ay = p0[1]
+    bx = p1[0]
+    by = p1[1]
+    cx = p2[0]
+    cy = p2[1]
     d = (ax * (by - cy) + bx * (cy - ay) + cx * (ay - by)) * 2.0
     if d == 0:
         return None
     x = ((ax * ax + ay * ay) * (by - cy) + (bx * bx + by * by) * (cy - ay) + (cx * cx + cy * cy) * (ay - by)) / d
     y = ((ax * ax + ay * ay) * (cx - bx) + (bx * bx + by * by) * (ax - cx) + (cx * cx + cy * cy) * (bx - ax)) / d
-    return (x, y, _distance(x, y, ax, ay))
+    return x, y, _distance(x, y, ax, ay)
 
 
 def _make_diameter(p0, p1):
-    return ((p0[0] + p1[0]) / 2.0, (p0[1] + p1[1]) / 2.0, _distance(p0[0], p0[1], p1[0], p1[1]) / 2.0)
+    return (p0[0] + p1[0]) / 2.0, (p0[1] + p1[1]) / 2.0, _distance(p0[0], p0[1], p1[0], p1[1]) / 2.0
 
 
 _EPSILON = 1e-12
+
 
 def _is_in_circle(c, p):
     return c is not None and _distance(p[0], p[1], c[0], c[1]) < c[2] + _EPSILON

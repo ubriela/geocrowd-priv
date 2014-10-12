@@ -10,6 +10,8 @@ https://bitbucket.org/hto/geocast/
 
 https://bitbucket.org/hto/geocrowd
 
+https://bitbucket.org/hto/maximumcomplextask/
+
 ----------- VERSION ---------------------------------
 
 1.1

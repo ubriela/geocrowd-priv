@@ -1,0 +1,340 @@
+INFO:root:Sat, 11 Oct 2014 23:56:13  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+DEBUG:root:tasks_gen: generating tasks...
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 00:58:03  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 00:59:36  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:00:07  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:00:16  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:00:24  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:00:32  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:00:45  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:01:52  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+INFO:root:Sun, 12 Oct 2014 01:03:44  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10048
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17583
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25298
+INFO:root:Sun, 12 Oct 2014 01:13:14  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10048
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17583
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25298
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2548
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10015
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17579
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25188
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2529
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9996
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17591
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25326
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2539
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10027
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17593
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25262
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2544
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9999
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17669
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25314
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2554
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9997
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17536
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25156
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2532
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9987
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17627
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25296
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2553
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10038
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17585
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25296
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2549
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9983
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17692
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25346
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2545
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9996
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17569
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25291
+INFO:root:Sun, 12 Oct 2014 01:26:37  START
+DEBUG:root:(2, 70745)
+DEBUG:root:[  32.87684802 -112.84284   ]
+DEBUG:root:[  34.048668 -111.335701]
+INFO:root:evalGeocast_Baseline
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2533
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10048
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17583
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25298
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2548
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10015
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17579
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25188
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2529
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9996
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17591
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25326
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2539
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10027
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17593
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25262
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2544
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9999
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17669
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25314
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2554
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9997
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17536
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25156
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2532
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9987
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17627
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25296
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2553
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 10038
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17585
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25296
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2549
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9983
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17692
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25346
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 10
+DEBUG:root:Generic: number of leaves: 2545
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 13
+DEBUG:root:Generic: number of leaves: 9996
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 17
+DEBUG:root:Generic: number of leaves: 17569
+DEBUG:root:Grid_pure: size: 64
+DEBUG:root:Grid_adaptive: Level 1 size: 21
+DEBUG:root:Generic: number of leaves: 25291

@@ -6,6 +6,11 @@
             <name>PrivateGeoCrowd</name>
             <sources>
                 <root id="src.dir"/>
+                <root id="src.geocrowd.dir"/>
+                <root id="src.geocast.dir"/>
+                <root id="src.htree.dir"/>
+                <root id="src.grid.dir"/>
+                <root id="src.common.dir"/>
                 <root id="src.output.dir"/>
             </sources>
             <tests/>

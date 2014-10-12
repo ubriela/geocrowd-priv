@@ -13,9 +13,8 @@ Output file: geocast.log
 Each line contains <lat lng, level1 k1 l1 i1 j1, level2 k2 l2....>
 """
 
+
 def geocast_log(prefix, line, eps):
-    file = open("../" + prefix + "_" + str(eps) + ".log", "a")
-    file.write(line)
-    file.close()
-    
-    
+    f = open("../" + prefix + "_" + str(eps) + ".log", "a")
+    f.write(line)
+    f.close()
