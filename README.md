@@ -4,14 +4,6 @@
 
 2) Hien To, Gabriel Ghinita, Cyrus Shahabi. PrivGeoCrowd: A Toolbox for Studying Private Spatial Crowdsourcing (demo). 40th International Conference on Very Large Data Bases (ICDE 2015)
 
-Related studies:
-
-https://bitbucket.org/hto/geocast/
-
-https://bitbucket.org/hto/geocrowd
-
-https://bitbucket.org/hto/maximumcomplextask/
-
 ----------- VERSION ---------------------------------
 
 1.1
