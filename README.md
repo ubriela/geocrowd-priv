@@ -1,8 +1,8 @@
 *** This repository is the implementation of the following papers: ***
 
-1) Hien To, Gabriel Ghinita, Cyrus Shahabi. A Framework for Protecting Worker Location Privacy in Spatial Crowdsourcing. In Proceedings of the 40th International Conference on Very Large Data Bases (VLDB 2014)
+1) Hien To, Gabriel Ghinita, and Cyrus Shahabi, A Framework for Protecting Worker Location Privacy in Spatial Crowdsourcing, In Proceedings of the 40th International Conference on Very Large Data Bases, Pages 919-930, Hangzhou, China, September 2014
 
-2) Hien To, Gabriel Ghinita, Cyrus Shahabi. PrivGeoCrowd: A Toolbox for Studying Private Spatial Crowdsourcing (demo). 40th International Conference on Very Large Data Bases (ICDE 2015)
+2) Hien To, Gabriel Ghinita, and Cyrus Shahabi , PrivGeoCrowd: A Toolbox for Studying Private Spatial Crowdsourcing, 2015 IEEE 31st International Conference on Data Engineering (ICDE), (demonstration), Page 1404 - 1407, Korea, 13-17 April 2015
 
 ----------- VERSION ---------------------------------
 
