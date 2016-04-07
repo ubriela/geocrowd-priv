@@ -8,11 +8,11 @@ Related studies:
 
 https://github.com/ubriela/geocrowd-priv-dynamic
 
+https://github.com/ubriela/geocrowd-priv-demo
+
 https://github.com/infolab-usc/geocrowd
 
 https://github.com/infolab-usc/SCAWG
-
-https://github.com/ubriela/geocrowd-priv-demo
 
 https://github.com/ubriela/geocrowd-complex
 
